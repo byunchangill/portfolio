@@ -208,12 +208,12 @@ figure {
         display: inline;
         list-style: none; }
         #colorlib-aside .colorlib-footer ul li a {
-          color: rgba(211, 70, 247, 0.4);
+          color: rgba(211, 70, 247, 0.4) !important;
           padding: 4px; }
           #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
             text-decoration: none;
             outline: none;
-            color: rgb(0, 0, 255); }
+            color: rgb(0, 0, 255) !important; }
 
 .container-wrap {
   max-width: 1170px;
@@ -439,11 +439,11 @@ body.offcanvas {
 
 .hire {
   padding: 2em;
-  background: #2c98f0; }
+  background: #2c98f0 !important; }
   .hire h2 {
     line-height: 1.5; }
   .hire h3 {
-    font-family: 'Nanum Myeongjo'; }
+    font-family: 'Nanum Myeongjo'!important; }
   .hire .btn-hire {
     color: rgb(255, 255, 255);
     text-transform: uppercase;

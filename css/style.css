@@ -445,7 +445,7 @@ body.offcanvas {
   .hire h3 {
     font-family: 'Nanum Myeongjo'!important; }
   .hire .btn-hire {
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255) !important;
     text-transform: uppercase;
     letter-spacing: 1px;
     bordeR: 1px solid #000;

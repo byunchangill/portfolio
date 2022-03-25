@@ -80,7 +80,6 @@
 						<li><a href="#" data-nav-section="services">Experience</a></li>
 						<li><a href="#" data-nav-section="experience">Career</a></li>
 						<li><a href="#" data-nav-section="education">Education</a></li>
-						<li><a href="#" data-nav-section="blog">Blog</a></li>
 						<li><a href="#" data-nav-section="contact">Contact</a></li>
 					</ul>
 				</div>
@@ -88,10 +87,7 @@
 
 			<div class="colorlib-footer">
 				<ul>
-					<li><a href="https://www.facebook.com/{{ site.facebook_id }}">Facebook<i class="icon-facebook2"></i></a></li>
-					<!-- <li><a href="#"><i class="icon-twitter2"></i></a></li> -->
-					<li><a href="https://www.instagram.com/{{ site.instagram_id }}">Instagram<i class="icon-instagram"></i></a></li>
-					
+					<li><a href="https://www.github.com/BYUNCHANGILL{{ site.github_id }}">github<i class="icon-github"></i></a></li>
 				</ul>
 			</div>
 
@@ -101,31 +97,15 @@
 			<section id="colorlib-hero" class="js-fullheight" data-section="home">
 				<div class="flexslider js-fullheight">
 					<ul class="slides">
-						{%- for slider in site.slider_0 -%}
-							<li style="background-image: url( {{ slider.background_url }} );">	<!-- 메인 첫번째 슬라이드 이미지 -->
-								<div class="overlay"></div>
-								<div class="container-fluid">
-									<div class="row">
-										<div class="col-md-10 col-md-offset-7 col-md-pull-1 col-sm-20 col-xs-20 js-fullheight slider-text"> <!--col-sm:모바일,col-xs:테블릿-->
-											<div class="slider-text-inner js-fullheight">
-												<div class="desc"style='float: left;'>
-													<h1>{{ slider.title }}</h1>	<!-- 메인 첫번째 슬라이드 이미지의 인사말 에니메이션 효과 -->
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</li>
-                        {%- endfor -%}
 						{%- for slider in site.slider_1 -%}
-							<li style="background-image: url( {{ slider.background_url }} );">  <!-- 메인 두번째 슬라이드 이미지 -->
+							<li style="background-image: url( {{ slider.background_url }} );">  <!-- 메인 이미지 -->
 								<div class="overlay"></div>
 								<div class="container-fluid">
 									<div class="row">
 										<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
 											<div class="slider-text-inner">
-												<div class="desc">
-													<h1 style='color:white;'>{{ slider.title }}</h1>   <!-- 메인 두번째 슬라이드 이미지의 소개말 에니메이션 효과 -->
+												<div class="desc" style="position: {{ slider.position }}; ">
+													<h1 style='color:white;'>{{ slider.title }}</h1>   <!-- 메인 이미지의 소개말 에니메이션 효과 -->
 													<h2 style='color:white;'>{{ slider.subtitle }}</h2>
 												</div>
 											</div>
@@ -213,10 +193,10 @@
 								<div class="progress-wrap">
 									<h3><strong>{{ tech.name }}</strong></h3>
 									<div class="progress">
-										<div class="progress-bar {{ tech.color | default: "color-1" }}" role="progressbar" aria-valuenow="{{ tech.mark }}"
+										<!-- <div class="progress-bar {{ tech.color | default: "color-1" }}" role="progressbar" aria-valuenow="{{ tech.mark }}"
 										aria-valuemin="0" aria-valuemax="100" style="width: {{ tech.mark }}%">
 										<span>{{ tech.percent }}%</span>
-										</div>
+										</div> -->
 									</div>
 									{{ tech.content }}
 								</div>
@@ -362,7 +342,7 @@
 				</div>
 			</section>
 			
-			<div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/cover_bg_5.jpeg);" data-stellar-background-ratio="0.5">
+			<!-- <div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/cover_bg_5.jpeg);" data-stellar-background-ratio="0.5">
 				<div class="overlay"></div>
 				<div class="colorlib-narrow-content">
 					<div class="row">
@@ -376,7 +356,7 @@
                         {% endfor %}
 					</div>
 				</div>
-			</div>
+			</div> -->
 
 			<!-- Career -->				
 			<section class="colorlib-experience" data-section="experience">
@@ -479,7 +459,7 @@
 			
 
 			
-			<section class="colorlib-blog" data-section="blog">
+			<!-- <section class="colorlib-blog" data-section="blog">
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
@@ -508,7 +488,7 @@
 						{% include youtubeplayer.html id=site.youtube_vid %}
 					</div>
 				</div>
-			</section>
+			</section> -->
 
 			<section class="colorlib-contact" data-section="contact">
 				<div class="colorlib-narrow-content">

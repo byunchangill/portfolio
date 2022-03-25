@@ -248,7 +248,7 @@ contact_list:
 - title: Github
   icon: icon-layers2
   url: https://github.com/BYUNCHANGILL
-contact_message: <em>연락해주셔서 감사합니다.</em> 24시간이내에 회신드리도록 하겠습니다. :)
+# contact_message: <em>연락해주셔서 감사합니다.</em> 24시간이내에 회신드리도록 하겠습니다. :)
 
 
 optional_front_matter:

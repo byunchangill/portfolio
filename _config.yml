@@ -239,15 +239,15 @@ blog_list:
 contact_meta: Get in Touch
 contact_header: Contact
 contact_list:
-- title: 이런것들도 손쉽게 고칠수 있게 만들어주세요
+- title: bchi2000@gmail.com
   icon: icon-globe-outline
-- title: 주소
+- title: 대구광역시 수성구
   icon: icon-map
-- title: +82 10 xxxx xxxx
+- title: +82 10 3828 9682
   icon: icon-phone
-- title: 웹 주소
+- title: Github
   icon: icon-layers2
-  url: https://google.com
+  url: https://github.com/BYUNCHANGILL
 contact_message: <em>연락해주셔서 감사합니다.</em> 24시간이내에 회신드리도록 하겠습니다. :)
 
 

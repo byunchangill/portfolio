@@ -233,6 +233,8 @@
 	var stickyFunction = function() {
 
 		var h = $('.image-content').outerHeight();
+		console.log(h);
+		console.log($("#sticky_item"));
 
 		if ($(window).width() <= 992 ) {
 			$("#sticky_item").trigger("sticky_kit:detach");
@@ -268,8 +270,8 @@
 
 	};
 
-	var owlCrouselFeatureSlide = function() {
-		$('.owl-carousel').owlCarousel({
+	var hyunewCrouselFeatureSlide = function() {
+		$('.hyunew-carousel').hyunewCarousel({
 			animateOut: 'fadeOut',
 		   animateIn: 'fadeIn',
 		   autoplay: true,
@@ -280,8 +282,8 @@
 		   autoHeight: true,
 		   items: 1,
 		   navText: [
-		      "<i class='icon-arrow-left3 owl-direction'></i>",
-		      "<i class='icon-arrow-right3 owl-direction'></i>"
+		      "<i class='icon-arrow-left3 hyunew-direction'></i>",
+		      "<i class='icon-arrow-right3 hyunew-direction'></i>"
 	     	]
 		})
 	};
@@ -303,7 +305,7 @@
 		mobileMenuOutsideClick();
 		sliderMain();
 		stickyFunction();
-		owlCrouselFeatureSlide();
+		hyunewCrouselFeatureSlide();
 	});
 
 

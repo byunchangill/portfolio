@@ -120,8 +120,7 @@ tech_list: # 형식에 맞추어 항목 추가
   percent: #
   mark: 100
   content: Spring Boot 로 팀 프로젝트를 구현 했습니다.
-tech_desc: 앞으로도 여기에 그치지 않고 <strong>다른 언어 및 기술</strong>등을 계속해서 조금씩 공부할 생각입니다. 
-
+tech_desc: 앞으로도 여기에 그치지 않고 <strong>다른 언어 및 기술</strong>등을 계속해서 공부할 것입니다. 
 
 # Project
 project_meta: My Work

@@ -2,7 +2,7 @@ title: Portfolio
 name: Chang-ill
 email: bchi2000@gmail.com
 description: >-
-  안녕하십니까. <br>개발자를 꿈꾸는 변창일입니다.</br>
+  안녕하십니까. <br>코딩과 연애중인 변창일입니다.</br>
 
 
 baseurl: ""
@@ -38,8 +38,8 @@ slider_1: # 형식에 맞추어 항목 추가
 - background_url: images/cover_bg_1.jpg
   title: I'm NOT<br>a Developer.
   subtitle: >- 
-    I'm the product manager<br>
-    I'm a bus mechanic<br>
+    I am the product manager<br>
+    I am a bus mechanic<br>
     
   position: absolute
   transform: translate(-50%, -50%)
@@ -49,11 +49,17 @@ slider_1: # 형식에 맞추어 항목 추가
 # About
 about_meta: About Me
 about_header: >- 
-  "사람들을 위해 무언가를 만든다는 것"
-about_introduce: #
+  "코딩과의 달콤한 동거"
+# about_introduce: >-
 about_content: >-
-  글짓기 해야되 ㅎㅎㅎㅎㅎ 
-
+  직장 생활 중 우연히 F12를 눌러 이상한 창이 뜬 적이 있습니다.<br>
+  알 수 없는 글자와 숫자로 이루어진 페이지<br>
+  <strong>저와 코딩의 첫 만남 이였습니다.</strong><br>
+  구글과 youtube 검색부터 시작하여 코딩의 세계에 빠져들었습니다.<br>
+  알면 알수록 신기했고, 또한 신기루 같았습니다.<br>
+  헤어 나올 수 없는 매력을 느끼고 저의 꿈을 찾았습니다.<br>
+  이 세계를 알고 싶고 제 것으로 만들고 싶어서 다니던 직장을 그만두고 학원으로 달려갔습니다.<br>
+  Java, JS, Spring 등 을 배우고 저와 코딩의 동거는 시작 되었습니다.
   <strong></strong>
 
 about_services: # 형식에 맞추어 항목 추가

@@ -36,12 +36,11 @@ color_6: 4054b2
 # slider type 0  (텍스트가 좌측 정렬된 슬라이더)
 slider_1: # 형식에 맞추어 항목 추가
 - background_url: images/cover_bg_1.jpg
-  title: I am<br>Developer
+  title: I'm <strong>NOT</strong><br>a Developer yet.
   subtitle: >- 
-    조금은 늦었지만<br>
-    아무것도 몰랐지만<br>
-    무작정 따라하며 성장해온<br>
-    초보 개발자 변창일입니다.
+    I'm the product manager<br>
+    I'm a bus mechanic<br>
+    
   position: absolute
   transform: translate(-50%, -50%)
   left: 200px
@@ -50,20 +49,16 @@ slider_1: # 형식에 맞추어 항목 추가
 # About
 about_meta: About Me
 about_header: >- 
-  코딩이 무엇인지도 모르고 도전한 "나"
-about_introduce: >-
-  "안녕하세요. 풀스택 전문가를 꿈꾸는 초보 개발자입니다."
+  "사람들을 위해 무언가를 만든다는 것"
+about_introduce: #
 about_content: >-
-  평소 여가 시간에 컴퓨터나 휴대폰으로 여러 콘텐츠를 둘러보던 중 <br>
-  문득 제가 구축한 서비스를 사람들이 편리하게 이용한다면 스스로 큰 보람을 느낄 것 같다는 생각을 했습니다. <br>
-  무언가를 새로 시작하기엔 다소 늦은 나이라는 주위의 만류에도 <br>
-  저는 다니던 직장을 관두고 학원을 다니기 시작했습니다. <br>
-  아무것도 모르고 너무나 부족함을 알았기에 모든것을 따라했습니다. <br>
-  <strong>전공자도 아니였고 아직도 모르는것 투성이지만 조금 늦은만큼 더 열심히 배워가고 있습니다.</strong>
+  글짓기 해야되 ㅎㅎㅎㅎㅎ 
+
+  <strong></strong>
 
 about_services: # 형식에 맞추어 항목 추가
 - icon: icon-data
-  name: Server
+  name: MariaDB
 - icon: icon-monitor
   name: Web
 - icon: icon-code
@@ -91,30 +86,34 @@ tech_list: # 형식에 맞추어 항목 추가
   percent: #
   mark: #
   content: 자바 기초, 기본적인 문법에 대해 알고 있으며, 자료구조 및 알고리즘을 자바로 공부하였습니다.
+
 - name: MariaDB
   color: color-2
   animation: fadeInRight
   percent: #
   mark: #
-  content: 공부하면 공부할수록 이 분야가 정말 방대하고 제가 아는것이 정말 일부분이라는 것을 많이 느낍니다. 기초 이론부터 다시 배우겠다는 마음으로 공부하고 있습니다.
-- name: JS
+  content: 기본적은 CRUD 쿼리문을 작성하고, Join 및 Sub쿼리등을 활용할수 있습니다.
+
+- name: JavaScript
   color: color-3
   animation: fadeInLeft
   percent: #
   mark: #
-  content: JavaScript를 활용하며, 팀 프로젝트를 해보았습니다.
+  content: JavaScript를 활용하며, Ajax 통신을 하고 View 단을 구현 할 수 있습니다.
+
 - name: Github
   color: color-4
   animation: fadeInRight
   percent: #
   mark: #
-  content: 프로젝트를 github를 통해 소스 코드를 관리하였으며, 협업 역시 github을 통해 진행하였습니다. 또한 github서버를 활용하여 블로그 및 포트폴리오 사이트를 관리합니다.
+  content: 프로젝트를 github를 통해 소스 코드를 관리하였으며, 협업 역시 github을 통해 진행하였습니다. 또한 github서버를 활용하여 포트폴리오 사이트를 관리합니다.
+
 - name: Spring Boot
   color: color-5
   animation: fadeInLeft
   percent: #
   mark: #
-  content: 팀 프로젝트를 Spring Boot 로 만들었습니다.  
+  content: Spring Boot 로 팀 프로젝트를 구현 했습니다.
 tech_desc: 앞으로도 여기에 그치지 않고 <strong>다른 언어 및 기술</strong>등을 계속해서 조금씩 공부할 생각입니다. 
 
 
@@ -199,10 +198,16 @@ career_list:
 edu_meta: Education
 edu_header: Education
 edu_list:
+- title: Korea IT Academy
+  subtitle: 코리아IT학원
+  date: 2021.09 - 2022.03
+  content: (스마트웹콘텐츠개발) 스마트콘텐츠 융합 웹 응용프로그래밍 개발자 양성	수료
+
 - title: Daegu Gacholic University
-  subtitle: 대구 가톨릭 대학교
+  subtitle: 대구 가톨릭 대학교 기계자동차공학부
   date: 2009.03 - 2018.08
   content: #
+
 - title: Ohseong High School
   subtitle: 오성고등학교
   date: 2006.03 - 2008.02

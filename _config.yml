@@ -84,35 +84,35 @@ tech_list: # 형식에 맞추어 항목 추가
   color: color-1
   animation: fadeInLeft
   percent: #
-  mark: #
+  mark: 100
   content: 자바 기초, 기본적인 문법에 대해 알고 있으며, 자료구조 및 알고리즘을 자바로 공부하였습니다.
 
 - name: MariaDB
   color: color-2
   animation: fadeInRight
   percent: #
-  mark: #
+  mark: 100
   content: 기본적은 CRUD 쿼리문을 작성하고, Join 및 Sub쿼리등을 활용할수 있습니다.
 
 - name: JavaScript
   color: color-3
   animation: fadeInLeft
   percent: #
-  mark: #
+  mark: 100
   content: JavaScript를 활용하며, Ajax 통신을 하고 View 단을 구현 할 수 있습니다.
 
 - name: Github
   color: color-4
   animation: fadeInRight
   percent: #
-  mark: #
+  mark: 100
   content: 프로젝트를 github를 통해 소스 코드를 관리하였으며, 협업 역시 github을 통해 진행하였습니다. 또한 github서버를 활용하여 포트폴리오 사이트를 관리합니다.
 
 - name: Spring Boot
   color: color-5
   animation: fadeInLeft
   percent: #
-  mark: #
+  mark: 100
   content: Spring Boot 로 팀 프로젝트를 구현 했습니다.
 tech_desc: 앞으로도 여기에 그치지 않고 <strong>다른 언어 및 기술</strong>등을 계속해서 조금씩 공부할 생각입니다. 
 

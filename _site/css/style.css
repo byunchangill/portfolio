@@ -16,7 +16,7 @@ body {
   font-weight: 400;
   font-size: 15px;
   line-height: 1.8;
-  color: rgba(0, 0, 0, 0.7); }
+  color: rgba(2, 2, 2, 0.7); }
   @media screen and (max-width: 992px) {
     body {
       font-size: 16px; } }
@@ -35,7 +35,7 @@ p {
   margin-bottom: 1.5em; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #000;
+  color: #222;
   font-family: "Playfair Display", Georgia, serif;
   font-weight: 400;
   margin: 0 0 30px 0; }
@@ -140,7 +140,7 @@ figure {
         text-transform: uppercase;
         letter-spacing: 1px; }
         #colorlib-aside #colorlib-main-menu ul li a {
-          color: rgba(0, 0, 0, 0.7);
+          color: rgba(2, 2, 2, 0.7);
           text-decoration: none;
           position: relative;
           padding: 10px 0;
@@ -190,7 +190,7 @@ figure {
     font-size: 15px;
     text-align: center;
     font-weight: 400;
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(2, 2, 2, 0.5);
     padding: 0 20px;
     width: 100%; }
     @media screen and (max-width: 768px) {
@@ -208,12 +208,12 @@ figure {
         display: inline;
         list-style: none; }
         #colorlib-aside .colorlib-footer ul li a {
-          color: rgba(211, 70, 247, 0.4) !important;
+          color: rgba(2, 2, 2, 0.4) !important;
           padding: 4px; }
           #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
             text-decoration: none;
             outline: none;
-            color: rgb(0, 0, 255) !important; }
+            color: rgb(4, 0, 255) !important; }
 
 .container-wrap {
   max-width: 1170px;
@@ -264,7 +264,7 @@ figure {
         display: block;
         margin-bottom: 10px; }
         #colorlib-hero .flexslider .flex-control-nav li a {
-          background: rgba(0, 0, 0, 0.5);
+          background: rgba(2, 2, 2, 0.5);
           -webkit-box-shadow: none;
           box-shadow: none;
           width: 12px;
@@ -293,7 +293,7 @@ figure {
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           margin: 0;
           padding: 0;
-          color: black;
+          color: #222;
           font-family: "Playfair Display", Georgia, serif; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
           margin-bottom: 20px;
@@ -327,17 +327,17 @@ figure {
           font-size: 12px;
           text-transform: uppercase;
           letter-spacing: 2px;
-          color: #000;
+          color: #222;
           padding: 10px 15px !important;
           border: none;
           font-weight: 400; }
           #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
-            color: #000;
-            border: 1px solid #000;
+            color: #222;
+            border: 1px solid #222;
             background: transparent !important; }
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
               background: transparent !important;
-              border: 1px solid #000 !important; }
+              border: 1px solid #222 !important; }
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
               width: 100%; } }
@@ -605,7 +605,7 @@ body.offcanvas {
   font-weight: 500; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 a {
-  color: #000; }
+  color: #222; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 span {
   -webkit-opacity: .4;
@@ -618,11 +618,11 @@ body.offcanvas {
 .services {
   margin-bottom: 30px;
   padding: 1.5em;
-  -webkit-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
-  -moz-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
-  -ms-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
-  -o-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
-  box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  -webkit-box-shadow: 0px 0px 56px -8px hsla(2, 2, 2, 0.17);
+  -moz-box-shadow: 0px 0px 56px -8px rgba(2, 2, 2, 0.17);
+  -ms-box-shadow: 0px 0px 56px -8px rgba(2, 2, 2, 0.17);
+  -o-box-shadow: 0px 0px 56px -8px rgba(2, 2, 2, 0.17);
+  box-shadow: 0px 0px 56px -8px rgba(2, 2, 2, 0.17);
   border-bottom: 2px solid var(--primary-color); }
   .services .icon2 {
     display: block;
@@ -748,7 +748,7 @@ body.offcanvas {
   box-shadow: none;
   font-size: 12px;
   line-height: 1.2;
-  color: #000;
+  color: #222;
   font-weight: 600;
   text-align: right;
   position: relative;
@@ -847,7 +847,7 @@ body.offcanvas {
     .colorlib-feature .colorlib-text h3 {
       font-weight: 500;
       margin-bottom: 20px;
-      color: rgba(0, 0, 0, 0.7);
+      color: rgba(2, 2, 2, 0.7);
       font-size: 14px;
       letter-spacing: 3px;
       text-transform: uppercase; }
@@ -895,13 +895,13 @@ body.offcanvas {
     letter-spacing: 1px;
     font-family: "Quicksand", Arial, sans-serif; }
     .blog-entry .desc h3 a {
-      color: #000;
+      color: #222;
       text-decoration: none; }
   .blog-entry .desc span {
     display: block;
     margin-bottom: 20px;
     font-size: 12px;
-    color: rgba(0, 0, 0, 0.4) !important;
+    color: rgba(2, 2, 2, 0.4) !important;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 400; }
@@ -911,7 +911,7 @@ body.offcanvas {
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #000; }
+    color: #222; }
   .blog-entry:hover .blog-img img {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
@@ -924,7 +924,7 @@ body.offcanvas {
   .work-menu span:first-child {
     margin-left: 0; }
   .work-menu span a {
-    color: #000; }
+    color: #222; }
     .work-menu span a.active {
       color: var(--primary-color); }
 
@@ -1002,16 +1002,16 @@ body.offcanvas {
       -webkit-transform: translate3d(0, 15px, 0);
       transform: translate3d(0, 15px, 0); }
       .project .desc span a {
-        color: #000; }
+        color: #222; }
     @media screen and (max-width: 768px) {
       .project .desc {
         opacity: 1;
-        background: rgba(0, 0, 0, 0.4); }
+        background: rgba(2, 2, 2, 0.4); }
         .project .desc h3 {
           font-style: 28px;
           -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
-          color: #000; }
+          color: #222; }
         .project .desc span {
           -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0); } }
@@ -1044,7 +1044,7 @@ body.offcanvas {
     top: 0;
     left: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.4); }
+    background: rgba(2, 2, 2, 0.4); }
   .colorlib-counters .icon {
     width: 100px;
     height: 100px;
@@ -1095,7 +1095,7 @@ body.offcanvas {
     *display: inline; }
     .colorlib-social li a {
       font-size: 22px;
-      color: #000;
+      color: #222;
       padding: 10px;
       display: -moz-inline-stack;
       display: inline-block;
@@ -1131,9 +1131,9 @@ body.offcanvas {
   .pagination li {
     margin: 2px; }
     .pagination li a {
-      color: #000;
+      color: #222;
       background: transparent;
-      color: #000;
+      color: #222;
       margin: 2px;
       -webkit-border-radius: 0;
       -moz-border-radius: 0;
@@ -1305,9 +1305,9 @@ body.offcanvas {
   cursor: pointer;
   text-decoration: none; }
   .colorlib-nav-toggle.active i::before, .colorlib-nav-toggle.active i::after {
-    background: #000; }
+    background: #222; }
   .colorlib-nav-toggle.dark.active i::before, .colorlib-nav-toggle.dark.active i::after {
-    background: #000; }
+    background: #222; }
   .colorlib-nav-toggle:hover, .colorlib-nav-toggle:focus, .colorlib-nav-toggle:active {
     outline: none;
     border-bottom: none !important; }
@@ -1319,7 +1319,7 @@ body.offcanvas {
     *display: inline;
     width: 30px;
     height: 2px;
-    color: #000;
+    color: #222;
     font: bold 14px/.4 Helvetica;
     text-transform: uppercase;
     text-indent: -55px;
@@ -1331,7 +1331,7 @@ body.offcanvas {
       content: '';
       width: 30px;
       height: 2px;
-      background: #000;
+      background: #222;
       position: absolute;
       left: 0;
       -webkit-transition: 0.2s;
@@ -1339,13 +1339,13 @@ body.offcanvas {
       transition: 0.2s; }
   .colorlib-nav-toggle.dark i {
     position: relative;
-    color: #000;
-    background: #000;
+    color: #222;
+    background: #222;
     -webkit-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out; }
     .colorlib-nav-toggle.dark i::before, .colorlib-nav-toggle.dark i::after {
-      background: #000;
+      background: #222;
       -webkit-transition: 0.2s;
       -o-transition: 0.2s;
       transition: 0.2s; }

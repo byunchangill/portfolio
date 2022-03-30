@@ -36,7 +36,7 @@ color_6: 4054b2
 # slider type 0  (텍스트가 좌측 정렬된 슬라이더)
 slider_1: # 형식에 맞추어 항목 추가
 - background_url: images/cover_bg_1.jpg
-  title: I'm <strong>NOT</strong><br>a Developer yet.
+  title: I'm NOT<br>a Developer.
   subtitle: >- 
     I'm the product manager<br>
     I'm a bus mechanic<br>

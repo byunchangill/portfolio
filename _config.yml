@@ -60,7 +60,6 @@ about_content: >-
   헤어 나올 수 없는 매력을 느끼고 저의 꿈을 찾았습니다.<br>
   이 세계를 알고 싶고 제 것으로 만들고 싶어서 다니던 직장을 그만두고 학원으로 달려갔습니다.<br>
   Java, JS, Spring 등 을 배우고 저와 코딩의 동거는 시작 되었습니다.
-  <strong></strong>
 
 about_services: # 형식에 맞추어 항목 추가
 - icon: icon-data
@@ -98,7 +97,7 @@ tech_list: # 형식에 맞추어 항목 추가
   animation: fadeInRight
   percent: #
   mark: 100
-  content: 기본적은 CRUD 쿼리문을 작성하고, Join 및 Sub쿼리등을 활용할수 있습니다.
+  content: 기본적인 CRUD 쿼리문을 작성하고, Join 및 Sub쿼리등을 활용할수 있습니다.
 
 - name: JavaScript
   color: color-3
@@ -157,8 +156,8 @@ project_team: # 형식에 맞추어 항목 추가
 
 # Experience
 exp_meta: What have I achieved?
-exp_header: 저는 팀 프로젝트 진행동안 이런 '경험'을 했습니다.
-exp_content: 현재 개발로서는 큰 도움은 되지 않을 수 있지만, 회사에서 필요로 한다면 이런 역량도 가지고 있습니다.
+exp_header: 저는 팀 프로젝트 진행동안 <br>이런 '경험'을 했습니다.
+exp_content: 코딩 이외의 역량도 갖추고 있습니다.
 exp_services: # 형식에 맞추어 항목 추가
 - name: 소통
   color: color-1

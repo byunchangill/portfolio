@@ -106,7 +106,7 @@
 											<div class="slider-text-inner">
 												<div class="desc" style="position: {{ slider.position }}; ">
 													<h1 style='color:white;'>{{ slider.title }}</h1>   <!-- 메인 이미지의 소개말 에니메이션 효과 -->
-													<h2 style='color:white;'>{{ slider.subtitle }}</h2>
+													<h2 style='color:rgb(245, 237, 237);'>{{ slider.subtitle }}</h2>
 												</div>
 											</div>
 										</div>
@@ -186,7 +186,6 @@
 					<div class="row">
 						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
 							<p>{{ site.tech_content }}</p>
-							<br>
 						</div>
 						{%- for tech in site.tech_list -%}
 							<div class="col-md-6 animate-box" data-animate-effect="{{ tech.animation }}">
@@ -196,10 +195,11 @@
 										<div class="progress-bar {{ tech.color | default: "color-1" }}" role="progressbar" aria-valuenow="{{ tech.mark }}"
 										aria-valuemin="0" aria-valuemax="100" style="width: {{ tech.mark }}%">
 										<!-- <span>{{ tech.percent }}%</span> -->
-										</div>
+									</div>
 									</div>
 									{{ tech.content }}
 								</div>
+								<br>
 							</div>
 							{{ e.title }}
                         {%- endfor -%}

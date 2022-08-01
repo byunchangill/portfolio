@@ -128,29 +128,23 @@ project_introduce: 저의 Project 를 소개합니다.
 project_load_more: 앞으로 더 많은 프로젝트가 추가될 예정입니다:)    # 더보기 내용
 project_load_more_url: https://github.com/BYUNCHANGILL
 
-# project_my_name: 개인프로젝트
+project_my_name: 개인프로젝트
 
-# project_my: # 형식에 맞추어 항목 추가
-# - background_url: images/personal_project1.PNG
-#   animation: fadeInLeft
-#   name: 딥러닝 불량품 검출(2021.04)
-#   description: 실패한 공모전을 대학원 기말 프로젝트를 통해 몰랐던부분을 배우고 해결하였습니다. 공장에서 만들어내는 부품의 데이터를 통해 불량품을 검출하는 프로젝트입니다. 
-#   detail_url: #
-#   readmore_url: #
+project_my: # 형식에 맞추어 항목 추가
 
-# - background_url: images/blog-1.PNG
-#   animation: fadeInLeft
-#   name: 개인 프로젝트 어쩌구
-#   description: 설명설명 설명 설명
-#   detail_url: #
-#   readmore_url: #
+- background_url: images/wavve.PNG
+  animation: fadeInLeft
+  name: wavve clone coding
+  description: OTT 서비스 중 하나인 wavve clone coding
+  detail_url: pdf/wavve.pdf
+  readmore_url: https://github.com/BYUNCHANGILL/clone_wavve
 
 project_team_name: 팀프로젝트
 project_team: # 형식에 맞추어 항목 추가
 - background_url: images/localhost.png
   animation: fadeInRight
   name: 오늘 뭐먹지?(2022.03)
-  description: 남녀노소 누구나 고민거리인 오늘 뭐먹지... 현 위치 기반으로 음식 및 식당을 추천해주는 웹 사이트를 개발하였습니다.
+  description: 남녀노소 누구나 고민거리인 오늘 뭐먹지... 현 위치 기반으로 음식 및 식당을 추천해주는 웹 사이트
   detail_url: pdf/project.pdf
   readmore_url: https://github.com/TeamGSVL/o_neul_final
 

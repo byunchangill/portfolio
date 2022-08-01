@@ -129,10 +129,8 @@ project_load_more: 앞으로 더 많은 프로젝트가 추가될 예정입니�
 project_load_more_url: https://github.com/BYUNCHANGILL
 
 project_my_name: 개인프로젝트
-
 project_my: # 형식에 맞추어 항목 추가
-
-- background_url: images/wavve.PNG
+- background_url: images/wavve.png
   animation: fadeInLeft
   name: wavve clone coding
   description: OTT 서비스 중 하나인 wavve clone coding

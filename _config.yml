@@ -133,7 +133,7 @@ project_my: # 형식에 맞추어 항목 추가
 - background_url: images/wavve.png
   animation: fadeInLeft
   name: wavve clone coding
-  description: OTT 서비스 중 하나인 wavve clone coding
+  description: OTT 서비스 중 하나인 Wavve Clone Coding
   detail_url: pdf/wavve.pdf
   readmore_url: https://github.com/BYUNCHANGILL/clone_wavve
 

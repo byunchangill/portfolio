@@ -2,7 +2,7 @@ title: Portfolio
 name: Chang-ill
 email: bchi2000@gmail.com
 description: >-
-  안녕하십니까. <br>코딩과 연애중인 변창일입니다.</br>
+  안녕하십니까. <br>Coding 공부중인 변창일입니다.</br>
 
 
 baseurl: ""
@@ -36,10 +36,10 @@ color_6: 4054b2
 # slider type 0  (텍스트가 좌측 정렬된 슬라이더)
 slider_1: # 형식에 맞추어 항목 추가
 - background_url: images/cover_bg_1.jpg
-  title: I'm NOT<br>a Developer.
+  title: I'm NOT<br>a Developer yet.
   subtitle: >- 
-    I am the product manager<br>
-    I am a bus mechanic<br>
+    I want to get a job <br>
+    as a developer.
     
   position: absolute
   transform: translate(-50%, -50%)
@@ -71,13 +71,13 @@ about_services: # 형식에 맞추어 항목 추가
 - icon: icon-code
   name: Spring Boot
   # 신념 혹은 자우명
-about_box_content: 
-  즐기는 사람을 이길 자는 없습니다. <br><br>
-  하지만 그 누구도 수십년을 꾸준히 해온 <br><br>
-  <b>'장인'</b>은 이길 수 없습니다.
-about_box_button:
-  link: https://github.com/BYUNCHANGILL
-  name: 이 구역의 '장인'은 제가 되겠습니다.
+# about_box_content: 
+#   즐기는 사람을 이길 자는 없습니다. <br><br>
+#   하지만 그 누구도 수십년을 꾸준히 해온 <br><br>
+#   <b>'장인'</b>은 이길 수 없습니다.
+# about_box_button:
+#   link: https://github.com/BYUNCHANGILL
+#   name: 이 구역의 '장인'은 제가 되겠습니다.
 
 
 # Tech  skill
@@ -90,7 +90,7 @@ tech_list: # 형식에 맞추어 항목 추가
   animation: fadeInLeft
   percent: #
   mark: 100
-  content: 자바 기초, 기본적인 문법에 대해 알고 있으며, 자료구조 및 알고리즘을 자바로 공부하였습니다.
+  content: 자바 기초, 자료구조 및 알고리즘을 자바로 공부하였습니다.
 
 - name: MariaDB
   color: color-2
@@ -118,7 +118,7 @@ tech_list: # 형식에 맞추어 항목 추가
   animation: fadeInLeft
   percent: #
   mark: 100
-  content: Spring Boot 로 팀 프로젝트를 구현 했습니다.
+  content: Spring Boot 로 프로젝트를 구현 했습니다.
 tech_desc: 앞으로도 여기에 그치지 않고 <strong>다른 언어 및 기술</strong>등을 계속해서 공부할 것입니다. 
 
 # Project

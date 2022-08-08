@@ -36,10 +36,9 @@ color_6: 4054b2
 # slider type 0  (텍스트가 좌측 정렬된 슬라이더)
 slider_1: # 형식에 맞추어 항목 추가
 - background_url: images/cover_bg_1.jpg
-  title: I'm NOT<br>a Developer yet.
+  title: Challenge <br> Positiveness <br> Effort
   subtitle: >- 
-    I want to get a job <br>
-    as a developer.
+    You never know <br> what you can do without trying
     
   position: absolute
   transform: translate(-50%, -50%)
